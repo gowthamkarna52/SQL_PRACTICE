@@ -1,3 +1,10 @@
+# Student Database SQL Project
+
+This project demonstrates basic SQL commands:
+-- Table creation using CREATE TABLE
+-- Data insertion using INSERT INTO
+-- Query examples using SELECT, WHERE, LIKE, GROUP BY, and COUNT()
+      
 CREATE TABLE Students(
       student_id INT primary key ,
       first_name VARCHAR(20) not null,
@@ -86,4 +93,5 @@ INSERT INTO Students (first_name, last_name, age, dob, email, phone, address) VA
 -- SELECT COUNT(*) FROM Students WHERE dob>'2002-12-31';
 -- SELECT age,COUNT(*) AS age_count FROM Students GROUP BY age;
 -- SELECT COUNT(*) AS born_in_2002 FROM Students WHERE YEAR(dob) = 2002;
+
 -- SELECT age,COUNT(*) AS age_count FROM Students GROUP BY age ORDER BY age;
