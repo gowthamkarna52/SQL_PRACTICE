@@ -1,6 +1,6 @@
-# Library Management System SQL Project  
-      -This project manages books, members, and borrow records with sample data and 
-      -The main five JOINS concepts were practiced.
+-- # Library Management System SQL Project  
+      --This project manages books, members, and borrow records with sample data and 
+      --The main five JOINS concepts were practiced.
   
 CREATE TABLE Books (
   book_id INTEGER PRIMARY KEY AUTOINCREMENT,
